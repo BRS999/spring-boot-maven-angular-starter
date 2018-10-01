@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --build-optimizer=false",
+    "build": "ng build -prod --output-path dist/META-INF/resources",
     "test": "ng test --watch false",
     "test-watch": "ng test",
     "lint": "ng lint",
